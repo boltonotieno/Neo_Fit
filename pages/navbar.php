@@ -1,13 +1,12 @@
   <!-- Nav page -->
   <section id="frontpage">
-    <div class="navbar">
-      <nav>
+    <div class="nav-bar">
       <div id="logo">
         <h1>Neo_Fit</h1>
         <h1>Neo_Fit</h1>
         <h1>Neo_Fit</h1>
       </div>
-        <ul class="nav-menu">
+        <ul class="">
           <li>
             <a href="#frontpage" class="hover_link">Home</a>
           </li>
@@ -21,7 +20,6 @@
             <a href="#contact" class="hover_link">Contact</a>
           </li>
         </ul>
-      </nav>
     </div>
     <div class="frontpagetext">
       <h1>Neo Fit Adventures</h1>

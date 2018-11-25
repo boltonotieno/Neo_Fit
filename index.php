@@ -17,6 +17,9 @@
         <?php include 'pages/navbar.php' ; ?>
      <!--End NavBar-->
 
+    <!--NavBar-->
+    <?php include 'pages/footer.php' ; ?>
+     <!--End NavBar-->
  
 
   <!--JavaScript at end of body for optimized loading-->

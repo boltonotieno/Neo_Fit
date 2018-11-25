@@ -1,0 +1,368 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  title{
+    font-family: 'Cherry Swash';
+  }
+  #frontpage {
+    background-image: url("../img/header-bg.jpg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 100vh;
+    background-attachment: scroll;
+    background-size: cover;
+    max-width: 100%;
+  }
+  
+  #about {
+    background-color: #181818;
+    /*background-repeat: no-repeat;*/
+    box-sizing: border-box;
+    height: 100vh;
+    background-attachment: scroll;
+    background-size: cover;
+    max-width: 100%;
+  }
+  
+  #projects {
+    background-color: #f8f7f3;
+    /*background-repeat: no-repeat;*/
+    box-sizing: border-box;
+    height: 100vh;
+    background-attachment: scroll;
+    background-size: cover;
+    max-width: 100%;
+  }
+  
+  #contact {
+    background-color: #427aa1;
+    /*background-repeat: no-repeat;*/
+    box-sizing: border-box;
+    height: 100vh;
+    background-attachment: scroll;
+    background-size: cover;
+    max-width: 100%;
+  }
+  
+  .frontpagetext {
+    color: #ffffff;
+    font-family: 'Cherry Swash';
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .scrolled {
+    background-color: #4665B9;
+    transition: 0.3s;
+  }
+  
+  .navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    transition: 0.3s;
+    z-index: 1;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  li:last-child {
+    padding-right: 50px;
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-align: center;
+    padding: 14px 16px;
+    transition: ease-in-out 0.3s;
+  }
+  
+  a:hover {
+    transition: ease-in-out 0.3s;
+  }
+  
+  .hover_link {
+    color: #ffffff;
+  }
+  
+  .hover_link:after {
+    border-bottom: 3px solid #f8f7f3;
+    content: "";
+    display: block;
+    margin: 0.25em auto 0;
+    transition: width 250ms ease-in-out 0s;
+    width: 0;
+  }
+  
+  .hover_link:hover:after {
+    transition: width 100ms ease-in-out 0s;
+    width: 100%;
+  }
+
+  @media screen and (max-width:400px){
+    .navbar{
+      height: auto;
+    }
+    .navbar #logo{
+      text-align: left;
+      width: 100%;
+      font-size: 1em;
+    }
+    .navbar ul{
+      width: 100%;
+    }
+    .navbar ul li{
+      padding: 10px 0px 10px 0px;
+      text-align: center;
+      font-size: 16px;
+      justify-content: space-around;
+    }
+    .navbar ul li a{
+      padding-left: 0px;
+    }
+    .frontpagetext {
+      font-size: 20px;
+      float: left;
+    }
+    .navbar ul li:last-child {
+      padding-right: 40px;
+    }
+  }
+  
+ 
+/* Logo style*************************************************************************** */
+  #logo {
+  
+    margin: auto;
+    position: fixed;
+    top: 0;
+    padding-top: 20px;
+  }
+  
+  #logo h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: 8px;
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    /*Create overlap*/
+    
+    margin: 0;
+    line-height: 0;
+    /*Animation*/
+    animation: glitch1 2.5s infinite;
+  }
+  
+  h1:nth-child(2) {
+    color: #67f3da;
+    animation: glitch2 2.5s infinite;
+  }
+  
+  h1:nth-child(3) {
+    color: #f16f6f;
+    animation: glitch3 2.5s infinite;
+  }
+  /*Keyframes*/
+  
+  @keyframes glitch1 {
+    0% {
+      transform: none;
+      opacity: 1;
+    }
+    7% {
+      transform: skew(-0.5deg, -0.9deg);
+      opacity: 0.75;
+    }
+    10% {
+      transform: none;
+      opacity: 1;
+    }
+    27% {
+      transform: none;
+      opacity: 1;
+    }
+    30% {
+      transform: skew(0.8deg, -0.1deg);
+      opacity: 0.75;
+    }
+    35% {
+      transform: none;
+      opacity: 1;
+    }
+    52% {
+      transform: none;
+      opacity: 1;
+    }
+    55% {
+      transform: skew(-1deg, 0.2deg);
+      opacity: 0.75;
+    }
+    50% {
+      transform: none;
+      opacity: 1;
+    }
+    72% {
+      transform: none;
+      opacity: 1;
+    }
+    75% {
+      transform: skew(0.4deg, 1deg);
+      opacity: 0.75;
+    }
+    80% {
+      transform: none;
+      opacity: 1;
+    }
+    100% {
+      transform: none;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes glitch2 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(-2px, -3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(-5px, -2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(-5px, -1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(-2px, -6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
+  }
+  
+  @keyframes glitch3 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(2px, 3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(5px, 2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(5px, 1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(2px, 6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
+  }
+
+/* END Logo style******************************************************************** */

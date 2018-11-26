@@ -8,8 +8,14 @@
   html {
     scroll-behavior: smooth;
   }
-  title{
+  .section-title{
     font-family: 'Cherry Swash';
+    text-align: center;
+    font-size: 3.0rem;
+    font-style: normal;
+    font-weight: 500;
+    margin: 2rem 0 1.6rem;
+    color: #16222A;
   }
   #frontpage {
     background-image: url("../img/header-bg.jpg");
@@ -161,6 +167,10 @@
     }
     .nav-bar ul li:last-child {
       padding-right: 40px;
+    }
+    .section-title{
+      font-size: 20px;
+      text-align: center;
     }
   }
   
@@ -539,3 +549,176 @@ ul.social-network li {
 }
 
 /* END back to top button*********************************************************************** */
+
+
+
+/* Card Us Syles*********************************************************************** */
+.restaurant {
+	position: relative;
+  height: 400px;
+	cursor: pointer;
+  z-index: 0;
+  padding: 10px;
+}
+
+.restaurant .reservation_btn {
+	position: absolute;
+	right: 20%;
+	top: 15%;
+	transform: rotate(90deg);
+	background:  #39546A;
+	text-transform: uppercase;
+	color: white;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+	transition: right 0.3s;
+	z-index: 2;
+	transition: all 0.5s;
+}
+
+.restaurant .reservation_btn:hover {
+	right: 19%;
+}
+
+.restaurant .reservation_btn--active {
+	right: 0%;
+	top: 0%;
+	transform: rotate(0deg);
+	width: 27%;
+	text-align: center;
+}
+
+.restaurant .close_it {
+	opacity: 0;
+}
+
+.restaurant.restaurant--active .close_it {
+	opacity: 1;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 33.5px;
+	background: white;
+	color: rgba(0, 0, 0, 0.5);
+	z-index: 5;
+	transition: all 0.5s;
+	transition-delay: 0.5s;
+}
+
+.restaurant .reservation_btn--active:hover {
+	right: 0%;
+	top: 0%;
+	transform: rotate(0deg);
+	width: 27%;
+	text-align: center;	
+}
+
+.restaurant .infos_left {
+	position: relative;
+	z-index: 3;
+	width: 70%;
+	height: 100%;
+	float: left;
+	background: white;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.restaurant .reservation_right {
+	position: absolute;
+	left: 70%;
+	z-index: 1;
+	width: 0%;
+	height: 100%;
+	float: right;
+	background: white;
+	overflow-x: scroll;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	transition: width 0.5s;
+}
+
+.restaurant .reservation_right--active {
+	overflow: hidden;
+	width: 30%;
+}
+
+.restaurant .infos_left .image_container {
+	width: 100%;
+	height: 70%;
+	background-size: cover;
+	background-size: 100%;
+	background-position: center;
+  transition: background-size 0.5s;
+  background-repeat: no-repeat;
+}
+
+.restaurant .infos_left:hover .image_container {
+	background-size: 120%;
+}
+
+.restaurant .infos_left .block_infos {
+	width: 100%;
+	height: 40%;
+	background: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+   box-shadow: 0px -6px 20px 0px rgba(0, 0, 0, 0.1);
+	transition: height 0.5s;
+}
+
+.restaurant .infos_left .block_infos h1 {
+	width: 50%;
+	float: left;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 10px 10px;
+	color:  #007bb7;
+}
+
+.restaurant .infos_left .block_infos .adress_block {
+	text-align: right;
+	margin: 10px 10px;
+	color: rgba(0, 0, 0, 0.5);
+	text-transform: capitalize;
+}
+
+.restaurant .infos_left .block_infos .adress_block i {
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+.restaurant .infos_left .block_infos .adress_block .locate {
+	background:  #007bb7;
+	color: white;
+	padding: 2px 10px;
+	border-radius: 5px;
+}
+
+.restaurant .infos_left .block_infos .description_block p {
+	text-align: justify;
+	padding: 0px 10px;
+	color: rgba(0, 0, 0, 0.8);
+	max-height: 72px;
+  text-overflow: ellipsis;
+  width: 90%;
+  display: block;
+  overflow: hidden
+}
+
+.restaurant .reservation_right .people {
+	padding: 40px 10px 0px 12px;
+	text-align: center;
+}
+
+.restaurant .reservation_right .people .text_people {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* END Card Us Syles*********************************************************************** */
+
+

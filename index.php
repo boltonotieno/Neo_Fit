@@ -17,6 +17,10 @@
         <?php include 'pages/navbar.php' ; ?>
      <!--End NavBar-->
 
+    <!--Services-->
+        <?php include 'pages/services.php' ; ?>
+     <!--services-->
+
     <!--Card Us-->
     <?php include 'pages/card-us.php' ; ?>
      <!--End card Us-->

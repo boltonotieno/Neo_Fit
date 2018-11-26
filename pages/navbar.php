@@ -14,10 +14,10 @@
             <a href="#blog" class="hover_link">Blog</a>
           </li>
           <li>
-            <a href="#projects" class="hover_link">Projects</a>
+            <a href="#services" class="hover_link">Services</a>
           </li>
           <li>
-            <a href="#contact" class="hover_link">Contact</a>
+            <a href="#our_details" class="hover_link">Contact</a>
           </li>
         </ul>
     </div>
@@ -29,16 +29,9 @@
 
   </section>
 
-  <section id="about">
+  <!-- <section id="about">
     <p>Content here...</p>
-  </section>
-  <section id="projects">
-    <p>Content here...</p>
-  </section>
-  <section id="contact">
-    <p>Content here...</p>
-  </section>
-  
+  </section> -->
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="./js/main.js"></script>

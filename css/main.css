@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 @import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 
 * {
     margin: 0;
@@ -36,27 +37,6 @@
     background-size: cover;
     max-width: 100%;
   }
-  
-  #projects {
-    background-color: #f8f7f3;
-    /*background-repeat: no-repeat;*/
-    box-sizing: border-box;
-    height: 100vh;
-    background-attachment: scroll;
-    background-size: cover;
-    max-width: 100%;
-  }
-  
-  #contact {
-    background-color: #427aa1;
-    /*background-repeat: no-repeat;*/
-    box-sizing: border-box;
-    height: 100vh;
-    background-attachment: scroll;
-    background-size: cover;
-    max-width: 100%;
-  }
-  
   .frontpagetext {
     color: #ffffff;
     font-family: 'Cherry Swash';
@@ -766,4 +746,73 @@ ul.social-network li {
 
 /* END Card Us Syles*********************************************************************** */
 
+
+/* Services section************************************************************************* */
+.services-wrapper {
+  width: auto;
+  min-height: 400px;
+}
+
+.service-container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.singleservice {
+  display: inline-block;
+  width: 35%;
+  height: 100%;
+  background: white;
+  padding: 20px;
+  font-family: avenir;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom: 5px solid skyblue;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.singleserviceb {
+  display: inline-block;
+  width: 35%;
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  font-family: avenir;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom: 5px solid #16222A;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:500px) {
+  .singleservice, .singleserviceb {
+    width: 100%;
+  }
+}
+
+h2.servicetitle{
+  font-family: 'Ubuntu';
+  font-size: 16pt;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding-bottom: 0px;
+  text-align: center;
+  color: blue;
+}
+
+.serviceicon {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
+}
+/* END Services section************************************************************************* */
 

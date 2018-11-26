@@ -1,7 +1,7 @@
 <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
-<footer class="mainfooter" role="contentinfo">
+<footer id="our_details" class="mainfooter" role="contentinfo">
   <div class="footer-middle">
   <div class="container">
     <div class="row">

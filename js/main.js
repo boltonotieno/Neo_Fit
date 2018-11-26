@@ -1,3 +1,4 @@
+// ===== Navbar Scroll ====
 $(function() {
     var header = $(".nav-bar");
   

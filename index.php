@@ -21,9 +21,9 @@
     <?php include 'pages/card-us.php' ; ?>
      <!--End card Us-->
 
-    <!--Card Us-->
+    <!--Blog posts-->
     <?php include 'pages/blog.php' ; ?>
-     <!--End card Us-->
+     <!--End Blog posts-->
 
     <!--NavBar-->
     <?php include 'pages/footer.php' ; ?>

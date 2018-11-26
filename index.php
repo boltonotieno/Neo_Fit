@@ -21,6 +21,10 @@
     <?php include 'pages/card-us.php' ; ?>
      <!--End card Us-->
 
+    <!--Card Us-->
+    <?php include 'pages/blog.php' ; ?>
+     <!--End card Us-->
+
     <!--NavBar-->
     <?php include 'pages/footer.php' ; ?>
      <!--End NavBar-->

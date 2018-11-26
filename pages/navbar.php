@@ -11,7 +11,7 @@
             <a href="#frontpage" class="hover_link">Home</a>
           </li>
           <li>
-            <a href="#about" class="hover_link">About</a>
+            <a href="#blog" class="hover_link">Blog</a>
           </li>
           <li>
             <a href="#projects" class="hover_link">Projects</a>

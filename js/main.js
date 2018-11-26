@@ -49,3 +49,15 @@ $('.close_it').click(function () {
 		focus.find('.reservation_btn').html('More...');	
 });
 
+
+
+// front Page Title
+function init() {  
+    main.classList.add("loading");
+    setTimeout(function() { main.classList.remove("loading"); }, 1800); 
+  }
+  window.onload = function() {
+    document.body.addEventListener('click', () => init());
+      init();
+  };
+

@@ -22,8 +22,11 @@
         </ul>
     </div>
     <div class="frontpagetext">
-      <h1>Neo Fit Adventures</h1>
+      <main id="main" class="loading"> 
+      <h1>NeoFit <b>Adventures</b></h1>
+      </main>
     </div>
+
   </section>
 
   <section id="about">

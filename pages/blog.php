@@ -1,10 +1,10 @@
 <section id="blog">
 <br>
 <div  class="container">
-  <h1 class="blog-title">Latest blog posts</h1>
+  <h1 class="blog-title">Latest blog post</h1>
 
   <ul>
-  <li class="post">
+  <!-- <li class="post">
       <div class="post__excerpt card">
         <header class="card__header">
           <h2>Blog title</h2>
@@ -12,7 +12,27 @@
         </header>
         <p>Simple one sentence hook line to draw in interest to your blog post.</p>
         <div class="card__cta">
-          <a href="#">Read more</a>
+        <a id="btn-abrir-popup">Read more</a>          
+            <div id="overlay" class="overlay">
+              <div id="popup" class="popup">
+                <a href="javascript:void(0);" id="btn-cerrar-popup" class="btn-cerrar-popup">
+                  <i class="fa fa-times"></i>
+                </a>
+                
+                <h3>
+                  Blog title
+                </h3>
+                
+                <p>
+                Simple one sentence hook line to draw in interest to your blog post.Simple one 
+                sentence hook line to draw in interest to your blog post.Simple one sentence hook
+                line to draw in interest to your blog post.<br>
+                Simple one sentence hook line to draw in interest to your blog post.Simple one 
+                sentence hook line to draw in interest to your blog post.Simple one sentence hook
+                line to draw in interest to your blog post.
+                </p>
+              </div>	
+            </div>
         </div>
       </div>
       <img class="post__image" src="http://bit.ly/2P146p3-unplash" alt="">
@@ -25,11 +45,31 @@
         </header>
         <p>Simple one sentence hook line to draw in interest to your blog post.</p>
         <div class="card__cta">
-          <a href="#">Read more</a>
+          <a id="btn-abrir-popup">Read more</a>          
+            <div id="overlay" class="overlay">
+              <div id="popup" class="popup">
+                <a href="javascript:void(0);" id="btn-cerrar-popup" class="btn-cerrar-popup">
+                  <i class="fa fa-times"></i>
+                </a>
+                
+                <h3>
+                  Blog title
+                </h3>
+                
+                <p>
+                Simple one sentence hook line to draw in interest to your blog post.Simple one 
+                sentence hook line to draw in interest to your blog post.Simple one sentence hook
+                line to draw in interest to your blog post.<br>
+                Simple one sentence hook line to draw in interest to your blog post.Simple one 
+                sentence hook line to draw in interest to your blog post.Simple one sentence hook
+                line to draw in interest to your blog post.
+                </p>
+              </div>	
+            </div>
         </div>
       </div>
       <img class="post__image" src="http://bit.ly/source_unsplash" alt="">
-    </li>
+    </li> -->
     <li class="post">
       <div class="post__excerpt card">
         <header class="card__header">
@@ -38,7 +78,27 @@
         </header>
         <p>Simple one sentence hook line to draw in interest to your blog post.</p>
         <div class="card__cta">
-          <a href="#">Read more</a>
+        <a id="btn-abrir-popup">Read more</a>          
+            <div id="overlay" class="overlay">
+              <div id="popup" class="popup">
+                <a href="javascript:void(0);" id="btn-cerrar-popup" class="btn-cerrar-popup">
+                  <i class="fa fa-times"></i>
+                </a>
+                
+                <h3>
+                  Blog title
+                </h3>
+                
+                <p>
+                Simple one sentence hook line to draw in interest to your blog post.Simple one 
+                sentence hook line to draw in interest to your blog post.Simple one sentence hook
+                line to draw in interest to your blog post.<br>
+                Simple one sentence hook line to draw in interest to your blog post.Simple one 
+                sentence hook line to draw in interest to your blog post.Simple one sentence hook
+                line to draw in interest to your blog post.
+                </p>
+              </div>	
+            </div>
         </div>
       </div>
       <img class="post__image" src="https://bit.ly/2Bxshb7"alt="">
@@ -83,6 +143,10 @@ $accent-light: #D6C385;
 
 .post h2 {
   font-size: 1.2em;
+}
+
+.card__cta {
+  cursor: pointer;
 }
 
 .post a {
@@ -200,4 +264,121 @@ $accent-light: #D6C385;
     }
   }
 }
+
+
+/* Popup */
+.overlay {
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.3);
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	visibility: hidden;
+}
+
+.overlay.active {
+	visibility: visible;
+}
+
+.popup {
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+	font-family: 'Montserrat', sans-serif;
+	max-width: 90%;
+	opacity: 0;
+	padding: 20px;
+	transform: scale(0.7);
+	transition: opacity 0.3s ease,
+							transform 0.3s ease;
+	width: 500px;
+}
+
+.popup .btn-cerrar-popup {
+	display: block;
+	color: #bbbbbb;
+	line-height: 16px;
+	text-align: right;
+	transition: color 0.3s ease;
+}
+
+.popup .btn-cerrar-popup:hover,
+.popup .btn-cerrar-popup:focus,
+.popup .btn-cerrar-popup:active {
+	color: #000000;
+}
+
+.popup h3 {
+	font: 600 20px 'Montserrat', sans-serif;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+  text-align: center;
+}
+
+.popup p {
+	margin-bottom: 40px;
+  font-family: sans-serif;
+}
+
+/* Animaciones */
+.popup.active {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.popup.active h3 {
+	animation: entrada-titulo 0.8s 0.5s ease forwards;
+	opacity: 0;
+	transform: translateY(-25px);
+}
+
+.popup.active p {
+	animation: entrada-subtitulo 0.8s 0.5s ease forwards;
+	opacity: 0;
+	transform: translateY(25px);
+}
+
+@keyframes entrada-titulo {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes entrada-subtitulo {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes entrada-inputs {
+	to {
+		opacity: 1;
+	}
+}
+
 </style>
+
+
+<script>
+let btnAbrirPopup = document.getElementById('btn-abrir-popup'),
+		overlay = document.getElementById('overlay'),
+		popup = document.getElementById('popup'),
+		btnCerrarpopup = document.getElementById('btn-cerrar-popup');
+
+
+btnAbrirPopup.addEventListener('click', function() {
+	overlay.classList.add('active');
+	popup.classList.add('active');
+});
+
+btnCerrarpopup.addEventListener('click', function() {
+	overlay.classList.remove('active');
+	popup.classList.remove('active');
+});
+</script>

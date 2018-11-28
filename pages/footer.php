@@ -43,10 +43,10 @@
     	<div class="col s12 l3">
     		<h4>Follow Us</h4>
             <ul class="social-network social-circle">
-             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-             <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-             <li><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-             <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+             <li><a href="https://web.facebook.com/neofitadventure" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+             <li><a class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+             <li><a href="https://www.instagram.com/neofitadv" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+             <li><a class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
             </ul>				
 		</div>
     </div>

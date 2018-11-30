@@ -772,6 +772,7 @@ ul.social-network li {
   border-bottom: 5px solid skyblue;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.8s ease, opacity 1.6s ease;
 }
 
 .singleserviceb {
@@ -788,6 +789,8 @@ ul.social-network li {
   border-bottom: 5px solid #16222A;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.8s ease, opacity 1.6s ease;
+
 }
 
 @media (max-width:500px) {
@@ -804,6 +807,25 @@ h2.servicetitle{
   padding-bottom: 0px;
   text-align: center;
   color: blue;
+  transition: transform 2.0s ease, opacity 1.9s ease;
+}
+
+.loading .servicetitle {
+  transform: translateY(-30px);
+  opacity: 0;
+  transition: all 0s;
+}
+
+.loading .singleservice {
+  transform: scale(3);
+  opacity: 0;
+  transition: all 0s;
+}
+
+.loading .singleserviceb {
+  transform: scale(4);
+  opacity: 0;
+  transition: all 0s;
 }
 
 .serviceicon {

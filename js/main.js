@@ -53,12 +53,22 @@ $('.close_it').click(function () {
 
 
 // front Page Title
-function init() {  
+function init() {
     main.classList.add("loading");
     setTimeout(function() { main.classList.remove("loading"); }, 1800); 
   }
+
+// service section load
+function init_service() {
+    var main_service = document.getElementById('main_service')
+    main_service.classList.add("loading");
+    setTimeout(function() { main_service.classList.remove("loading"); }, 2000); 
+  }
+
   window.onload = function() {
     document.body.addEventListener('click', () => init());
+    document.body.addEventListener('click', () => init_service());
       init();
+      init_service();
   };
 

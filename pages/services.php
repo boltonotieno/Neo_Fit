@@ -1,3 +1,4 @@
+<main id="main_service">
 <div id="services" class="service-container">
 <br>
 <br>
@@ -41,8 +42,4 @@
     recognition and growth at corporate and organised group levels.
     </div>
 </div>
-
-<style>
-
-
-</style>
+</main>

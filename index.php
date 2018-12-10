@@ -12,7 +12,7 @@
      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700">
  </head>
  <body>
-     
+
     <!--NavBar-->
         <?php include 'pages/navbar.php' ; ?>
      <!--End NavBar-->
@@ -32,7 +32,6 @@
     <!--NavBar-->
     <?php include 'pages/footer.php' ; ?>
      <!--End NavBar-->
- 
 
   <!--JavaScript at end of body for optimized loading-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

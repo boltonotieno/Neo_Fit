@@ -47,7 +47,7 @@
              <li><a class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
              <li><a href="https://www.instagram.com/neofitadv" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
              <li><a class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-            </ul>				
+            </ul>
 		</div>
     </div>
 	<div class="row">
@@ -57,7 +57,7 @@
 	</div>
 
     <a id="return-to-top"><i class="fa fa-chevron-up"></i></a>
-    
+
   </div>
   </div>
 </footer>

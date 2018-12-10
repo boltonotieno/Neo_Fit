@@ -22,7 +22,7 @@
         </ul>
     </div>
     <div class="frontpagetext">
-      <main id="main" class="loading"> 
+      <main id="main" class="loading">
       <h1>NeoFit <b>Adventures</b></h1>
       </main>
     </div>

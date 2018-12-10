@@ -17,7 +17,7 @@
 				<span class="locate">info</span>
 			</div>
 			<div class="description_block">
-      <p>Safety & comfort.</p>			
+      <p>Safety & comfort.</p>
       </div>
 		</div>
 	</div>
@@ -25,8 +25,8 @@
 		<div class="people">
       <span class="text_people">Peace of Mind</span>
       <div class="description_block">
-      <p>You can have confidence in our experts' dedication to traveler safety, 
-        comfort, & providing a seamless trip.</p>			
+      <p>You can have confidence in our experts' dedication to traveler safety,
+        comfort, & providing a seamless trip.</p>
       </div>
     </div>
 	</div>
@@ -58,10 +58,10 @@
 		<div class="people">
       <span class="text_people">Tailored For You</span>
       <div class="description_block">
-      <p>Tell us your travel interests, dreams and desires, then let our experts 
-        tailor the perfect trip for you!</p>			
-      </div>	
-    </div>	
+      <p>Tell us your travel interests, dreams and desires, then let our experts
+        tailor the perfect trip for you!</p>
+      </div>
+    </div>
 	</div>
 </div>
   </section>
@@ -91,9 +91,9 @@
 		<div class="people">
       <span class="text_people">Superb Travel</span>
       <div class="description_block">
-      <p>We are fully committed to low impact travel that not only preserves but gives back to 
-        the amazing places we visit.</p>			
-      </div>		
+      <p>We are fully committed to low impact travel that not only preserves but gives back to
+        the amazing places we visit.</p>
+      </div>
     </div>
 	</div>
 </div>
@@ -124,10 +124,10 @@
 		<div class="people">
       <span class="text_people">Insider Access</span>
       <div class="description_block">
-      <p>Our personal expertise & experience, local partners in our destinations, & lots of resources are all 
-        invaluable to designing your unique journey.</p>			
+      <p>Our personal expertise & experience, local partners in our destinations, & lots of resources are all
+        invaluable to designing your unique journey.</p>
       </div>
-    </div>		
+    </div>
 	</div>
 </div>
   </section>

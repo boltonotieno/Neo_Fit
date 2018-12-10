@@ -12,26 +12,26 @@
         </header>
         <p>Simple one sentence hook line to draw in interest to your blog post.</p>
         <div class="card__cta">
-        <a id="btn-abrir-popup">Read more</a>          
+        <a id="btn-abrir-popup">Read more</a>
             <div id="overlay" class="overlay">
               <div id="popup" class="popup">
                 <a href="javascript:void(0);" id="btn-cerrar-popup" class="btn-cerrar-popup">
                   <i class="fa fa-times"></i>
                 </a>
-                
+
                 <h3>
                   Blog title
                 </h3>
-                
+
                 <p>
-                Simple one sentence hook line to draw in interest to your blog post.Simple one 
+                Simple one sentence hook line to draw in interest to your blog post.Simple one
                 sentence hook line to draw in interest to your blog post.Simple one sentence hook
                 line to draw in interest to your blog post.<br>
-                Simple one sentence hook line to draw in interest to your blog post.Simple one 
+                Simple one sentence hook line to draw in interest to your blog post.Simple one
                 sentence hook line to draw in interest to your blog post.Simple one sentence hook
                 line to draw in interest to your blog post.
                 </p>
-              </div>	
+              </div>
             </div>
         </div>
       </div>
@@ -45,26 +45,26 @@
         </header>
         <p>Simple one sentence hook line to draw in interest to your blog post.</p>
         <div class="card__cta">
-          <a id="btn-abrir-popup">Read more</a>          
+          <a id="btn-abrir-popup">Read more</a>
             <div id="overlay" class="overlay">
               <div id="popup" class="popup">
                 <a href="javascript:void(0);" id="btn-cerrar-popup" class="btn-cerrar-popup">
                   <i class="fa fa-times"></i>
                 </a>
-                
+
                 <h3>
                   Blog title
                 </h3>
-                
+
                 <p>
-                Simple one sentence hook line to draw in interest to your blog post.Simple one 
+                Simple one sentence hook line to draw in interest to your blog post.Simple one
                 sentence hook line to draw in interest to your blog post.Simple one sentence hook
                 line to draw in interest to your blog post.<br>
-                Simple one sentence hook line to draw in interest to your blog post.Simple one 
+                Simple one sentence hook line to draw in interest to your blog post.Simple one
                 sentence hook line to draw in interest to your blog post.Simple one sentence hook
                 line to draw in interest to your blog post.
                 </p>
-              </div>	
+              </div>
             </div>
         </div>
       </div>
@@ -78,26 +78,26 @@
         </header>
         <p>Simple one sentence hook line to draw in interest to your blog post.</p>
         <div class="card__cta">
-        <a id="btn-abrir-popup">Read more</a>          
+        <a id="btn-abrir-popup">Read more</a>
             <div id="overlay" class="overlay">
               <div id="popup" class="popup">
                 <a href="javascript:void(0);" id="btn-cerrar-popup" class="btn-cerrar-popup">
                   <i class="fa fa-times"></i>
                 </a>
-                
+
                 <h3>
                   Blog title
                 </h3>
-                
+
                 <p>
-                Simple one sentence hook line to draw in interest to your blog post.Simple one 
+                Simple one sentence hook line to draw in interest to your blog post.Simple one
                 sentence hook line to draw in interest to your blog post.Simple one sentence hook
                 line to draw in interest to your blog post.<br>
-                Simple one sentence hook line to draw in interest to your blog post.Simple one 
+                Simple one sentence hook line to draw in interest to your blog post.Simple one
                 sentence hook line to draw in interest to your blog post.Simple one sentence hook
                 line to draw in interest to your blog post.
                 </p>
-              </div>	
+              </div>
             </div>
         </div>
       </div>
@@ -152,7 +152,7 @@ $accent-light: #D6C385;
 .post a {
   text-decoration: none;
   color: $accent;
-  
+
   &:hover {
     color: $accent-light;
   }
@@ -177,7 +177,7 @@ $accent-light: #D6C385;
   + .post {
     margin-top: 2rem;
   }
-  
+
   &__excerpt {
     position: relative;
   }
@@ -186,7 +186,7 @@ $accent-light: #D6C385;
 .post .card {
   background-color: $card-bg;
   padding: 2rem;
-  
+
   &:before {
     content: '';
     display: block;
@@ -197,12 +197,12 @@ $accent-light: #D6C385;
     transform: rotate(45deg);
     bottom: #{-$caret-size * 0.5};
   }
-  
+
   &__header {
     padding-bottom: 1rem;
     border-bottom: 1px solid white;
   }
-  
+
   &__date {
     text-transform: uppercase;
     letter-spacing: 0.3em;
@@ -213,43 +213,43 @@ $accent-light: #D6C385;
   .container {
     width: 60%;
   }
-  
+
   .post {
     display: flex;
     align-items: center;
     padding-bottom: 10px;
-    
+
     &__excerpt {
       width: 45%;
     }
-    
+
     &__image {
       width: 55%;
     }
-    
+
     &:nth-child(odd) {
       .post__excerpt {
         margin-right: -4rem;
       }
-      
+
       .card {
         &:before {
           right: #{-$caret-size * 0.5};
         }
       }
-      
+
       .card__header,
       .card__cta {
         text-align: right;
       }
     }
-    
+
     &:nth-child(even) {
       .post__excerpt {
         order: 1;
         margin-left: -4rem;
       }
-      
+
       .post .card {
         &:before {
           left: #{-$caret-size * 0.5};
@@ -257,7 +257,7 @@ $accent-light: #D6C385;
       }
     }
   }
-  
+
   .post .card {
     &:before {
       bottom: auto;

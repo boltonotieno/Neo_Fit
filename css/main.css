@@ -807,7 +807,7 @@ h2.servicetitle{
   padding-bottom: 0px;
   text-align: center;
   color: blue;
-  transition: transform 2.0s ease, opacity 1.9s ease;
+  transition: transform 1.5s ease, opacity 1.9s ease;
 }
 
 .loading .servicetitle {
@@ -815,7 +815,7 @@ h2.servicetitle{
   opacity: 0;
   transition: all 0s;
 }
-
+/* 
 .loading .singleservice {
   transform: scale(3);
   opacity: 0;
@@ -826,7 +826,7 @@ h2.servicetitle{
   transform: scale(4);
   opacity: 0;
   transition: all 0s;
-}
+} */
 
 .serviceicon {
   width: 20%;
